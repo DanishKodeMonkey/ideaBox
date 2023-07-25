@@ -1,0 +1,44 @@
+html, body{
+    background-color: darkslategrey;
+}
+#banner{
+    margin: auto;
+    width: 100rem;
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 50px;
+    border: 5px dotted aliceblue;
+}
+#greeting{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: aliceblue;
+    width: 100em;
+    border: 5px dotted aquamarine;
+}
+#wrapper{
+    text-align: center;
+}
+#ideaText{
+    width:400px;
+    height:500px;
+    background-color: aliceblue;
+    padding-left: 80px;
+    padding-top: 50px;
+    line-height: 21.4px;
+    resize: none;
+    background: #333 url(images/istockphoto-519847559-612x612.jpg) repeat;
+    box-shadow: 0px 2px 14px #000000;
+    margin: 10px;
+    margin-left:auto;
+    
+}
+#submitButton{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: large;
+    width:100px;
+    
+}

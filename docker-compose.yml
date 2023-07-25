@@ -1,0 +1,15 @@
+version: '3'
+services:
+  postgres:
+    image: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      DB_HOST: idea_box
+      DB_USER: postgres
+      DB_PASSWORD: complicated
+      DB_NAME: ideaBox
+    volumes:
+      - ./initdb:/docker-entrypoint-initdb.d
+      

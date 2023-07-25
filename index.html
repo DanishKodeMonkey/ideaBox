@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tagging the site -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An idea box for future projects.">
+    <meta name="keywords" content="html, css, javascript, idea, box">
+    <meta name="author" content="Danish Kode Monkey, Daniel Runge">
+    <!-- Link to CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>ideaBox</title>
+</head>
+<body>
+    <header>
+        <div id="banner">ideaBox</div>
+    </header>
+    <main>
+        <div id="greeting">
+            <h1>Hello!</h1>
+            <h2>I hear you got an idea? Write it below and let me know about it!</h2>
+        </div>
+            <div id="wrapper">
+            <form action="" id="ideaForm">
+                <textarea 
+                name="ideaInput" 
+                id="ideaText" 
+                cols="30" 
+                rows="10" 
+                form="ideaForm" 
+                maxlength="1200" 
+                placeholder="What is your idea..?" 
+                wrap="off"></textarea>
+                <input type="button" value="Submit" id="submitButton" onclick="submitIdea()">
+            </div>
+
+            </form>
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <!-- Link to javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
